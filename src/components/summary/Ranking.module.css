@@ -1,0 +1,9 @@
+.half-background {
+  background: linear-gradient(180deg, #24282A 50%, white 50%);
+}
+
+.list-plus li:before {
+  content: '+';
+  margin-right: 20px;
+  color: #F93821;
+}
