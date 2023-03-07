@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import Card from '../UI/Card';
 import { FaceFrownIcon, FaceSmileIcon, UsersIcon } from '@heroicons/react/24/outline';
+import ProgressBar from '../UI/ProgressBar';
 
 const Solds = () => {
   return <Fragment>
@@ -28,8 +29,10 @@ const Solds = () => {
               <p>promote you to</p>
             </div>
             <div>
-              <h2>100</h2>
-              <span className="somebar">------ (xx%)</span>
+              <h2 className='text-2xl font-bold text-right text-cyan-600'>100</h2>
+              <span className="somebar">
+                <ProgressBar />
+              </span>
             </div>
           </div>
           <div className='grid grid-flow-col'>
@@ -37,13 +40,13 @@ const Solds = () => {
               <p>Appointments </p>
               <p>set with you</p>
             </div>
-            <div className="col-2">
+            <div className="text-2xl font-bold text-right text-cyan-600">
               <h2>30</h2>
             </div>
           </div>
         </div>
       </Card>
-      <Card className="col-2">
+      <Card className="">
         <FaceSmileIcon className='w-16 h-16 rounded-full bg-gray-300 p-3' />
         <h1 className='font-semibold text-4xl my-4'>Wins</h1>
         <div className='grid grid-flow-row divide-y divide-dashed'>
@@ -52,7 +55,7 @@ const Solds = () => {
               <p>Your signed </p>
               <p>agreements</p>
             </div>
-            <div className="col-2">
+            <div className="">
               <h2 className='text-3xl font-bold text-right text-lime-600'>15</h2>
             </div>
           </div>
@@ -60,7 +63,7 @@ const Solds = () => {
             <div>
               <p>Your closings</p>
             </div>
-            <div className="col-2">
+            <div className="">
               <h3 className='text-2xl font-bold text-right text-lime-600'>10</h3>
             </div>
           </div>
@@ -74,7 +77,7 @@ const Solds = () => {
           </div>
         </div>
       </Card>
-      <Card className="col-3">
+      <Card className="">
         <FaceFrownIcon className='w-16 h-16 rounded-full bg-gray-300 p-3' />
         <h1 className='font-semibold text-4xl my-4'>Losses</h1>
         <div className='grid grid-flow-row divide-y divide-dashed'>
@@ -83,7 +86,7 @@ const Solds = () => {
               <p>Appointments that signed </p>
               <p>with another agent</p>
             </div>
-            <div className="col-2">
+            <div className="">
               <h2 className='text-right font-bold text-red-600 text-3xl'>15</h2>
             </div>
           </div>
@@ -91,7 +94,7 @@ const Solds = () => {
             <div>
               <p>Lost closings</p>
             </div>
-            <div className="col-2">
+            <div className="">
               <h3 className='text-right font-bold text-red-600 text-2xl'>10</h3>
             </div>
           </div>
