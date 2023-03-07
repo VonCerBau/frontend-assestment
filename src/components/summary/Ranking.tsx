@@ -5,14 +5,14 @@ import styles from './Ranking.module.css';
 
 const Ranking = () => {
   return <div className={`px-10 py-1 ${styles['half-background']}`}>
-    <div className='rounded-md grid grid-flow-row md:grid-cols-2 mx-20 py-4 px-10 shadow-lg bg-gray-50'>
+    <div className='rounded-md grid grid-flow-row md:grid-cols-2 lg:mx-20 lg:py-4 lg:px-10 shadow-lg bg-gray-50'>
       <div className="px-4 py-3">
         <p className='font-semibold'>
           Our referrals are routed to the top performing agents in
           our network. Rankings are based on numerous factors,
           including:
         </p>
-        <ul className={`font-semibold grid grid-flow-row grid-cols-2 grid-rows-2 list-inside mt-3 ${styles['list-plus']}`}>
+        <ul className={`font-semibold grid lg:grid-flow-row lg:grid-cols-2 lg:grid-rows-2 list-inside mt-3 ${styles['list-plus']}`}>
           <li>Transaction Statistics</li>
           <li>Customer Satisfaction</li>
           <li>Responsiveness</li>

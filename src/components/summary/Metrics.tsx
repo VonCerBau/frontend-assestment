@@ -14,7 +14,7 @@ const Metrics = () => {
       </p>
       <p>After all, isn't that metric that matters most?</p>
     </div>
-    <div className='rounded-md px-10 py-5 bg-gray-50 mx-20 '>
+    <div className='rounded-md bg-gray-50 xl:mx-20 xl:px-10 xl:py-5 sm:p-5'>
       <p className='text-md font-semibold'>In your zips over the last 18 months, we-ve originated:</p>
       <div className='grid grid-cols-2 divide-x-2 divide-gray-100 m-4'>
         <div className="px-4 py-2">
